@@ -33,7 +33,7 @@
   function initLang() {
     var saved = null;
     try { saved = localStorage.getItem(LANG_KEY); } catch (e) {}
-    applyLang(saved === 'en' ? 'en' : 'ne'); // default Nepali
+    applyLang(saved === 'ne' ? 'ne' : 'en'); // default English
     var btn = document.getElementById('langBtn');
     if (btn) btn.addEventListener('click', function () {
       var now = document.documentElement.classList.contains('lang-show-en') ? 'en' : 'ne';

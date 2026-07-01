@@ -593,7 +593,7 @@ function feedbackWidget() {
 function pageShell({ title, bodyClass, content, sidebar }) {
   const hasSidebar = !!sidebar;
   return `<!DOCTYPE html>
-<html lang="ne" class="lang-show-ne">
+<html lang="en" class="lang-show-en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
