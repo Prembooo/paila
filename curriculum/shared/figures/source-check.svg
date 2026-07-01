@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img" aria-label="The four-question source check: who made it, when, why, and what evidence">
+  <style>
+    .page { fill:#ffffff; stroke:#0b5394; stroke-width:3; }
+    .row { fill:#f3f6fb; stroke:#0b5394; stroke-width:2; }
+    .t { font:600 17px system-ui, sans-serif; fill:#14213d; }
+    .n { fill:#d35400; }
+    .nt { fill:#fff; font:bold 16px system-ui, sans-serif; text-anchor:middle; }
+  </style>
+
+  <rect class="page" x="40" y="20" width="560" height="340" rx="12"/>
+  <text class="t" x="70" y="58" style="font-weight:700; fill:#0b5394; font-size:19px">Before you trust it, ask 4 questions:</text>
+
+  <rect class="row" x="70" y="80" width="500" height="56" rx="8"/>
+  <circle class="n" cx="100" cy="108" r="16"/><text class="nt" x="100" y="114">1</text>
+  <text class="t" x="130" y="114">Who made it?</text>
+
+  <rect class="row" x="70" y="148" width="500" height="56" rx="8"/>
+  <circle class="n" cx="100" cy="176" r="16"/><text class="nt" x="100" y="182">2</text>
+  <text class="t" x="130" y="182">When was it made?</text>
+
+  <rect class="row" x="70" y="216" width="500" height="56" rx="8"/>
+  <circle class="n" cx="100" cy="244" r="16"/><text class="nt" x="100" y="250">3</text>
+  <text class="t" x="130" y="250">Why was it made?</text>
+
+  <rect class="row" x="70" y="284" width="500" height="56" rx="8"/>
+  <circle class="n" cx="100" cy="312" r="16"/><text class="nt" x="100" y="318">4</text>
+  <text class="t" x="130" y="318">What evidence is there?</text>
+</svg>

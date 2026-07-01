@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-label="Learning loop: ask a question, find and check answers, practice, then ask again">
+  <style>
+    .box { fill:#eef2fb; stroke:#0b5394; stroke-width:3; }
+    .t { font:700 16px system-ui, sans-serif; text-anchor:middle; fill:#14213d; }
+    .flow { stroke:#0b5394; stroke-width:4; fill:none; marker-end:url(#ar3); }
+  </style>
+  <defs><marker id="ar3" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#0b5394"/></marker></defs>
+
+  <rect class="box" x="40" y="90" width="160" height="70" rx="12"/>
+  <text class="t" x="120" y="130">1. Ask a question</text>
+
+  <rect class="box" x="280" y="30" width="160" height="70" rx="12"/>
+  <text class="t" x="360" y="62">2. Find and</text>
+  <text class="t" x="360" y="82">check the answer</text>
+
+  <rect class="box" x="280" y="150" width="160" height="70" rx="12"/>
+  <text class="t" x="360" y="192">3. Practice it</text>
+
+  <rect class="box" x="520" y="90" width="160" height="70" rx="12"/>
+  <text class="t" x="600" y="122">4. Ask a</text>
+  <text class="t" x="600" y="142">better question</text>
+
+  <path class="flow" d="M200 115 C240 95 250 75 278 70"/>
+  <path class="flow" d="M360 100 V148"/>
+  <path class="flow" d="M440 185 C480 185 500 150 518 135"/>
+</svg>

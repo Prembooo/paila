@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" role="img" aria-label="Three layers of a computer: hardware at the bottom, operating system in the middle, and apps on top, with a person using the apps">
+  <style>
+    .hw { fill:#cdd8e6; stroke:#0b5394; stroke-width:3; }
+    .os { fill:#bcd3ee; stroke:#0b5394; stroke-width:3; }
+    .app { fill:#dff0e2; stroke:#1b7a3d; stroke-width:3; }
+    .lab { fill:#14213d; font:700 19px system-ui, sans-serif; text-anchor:middle; }
+    .sub { fill:#4a5568; font:400 14px system-ui, sans-serif; text-anchor:middle; }
+    .person { fill:#d35400; }
+  </style>
+
+  <!-- App icons row -->
+  <rect class="app" x="120" y="40" width="380" height="70" rx="10"/>
+  <text class="lab" x="310" y="72">Apps (software)</text>
+  <text class="sub" x="310" y="94">games · messages · video · learning</text>
+
+  <!-- OS layer -->
+  <rect class="os" x="120" y="130" width="380" height="70" rx="10"/>
+  <text class="lab" x="310" y="162">Operating System</text>
+  <text class="sub" x="310" y="184">lets you control the device and open apps</text>
+
+  <!-- Hardware layer -->
+  <rect class="hw" x="120" y="220" width="380" height="80" rx="10"/>
+  <text class="lab" x="310" y="255">Hardware (the parts)</text>
+  <text class="sub" x="310" y="277">screen · keyboard · CPU · storage</text>
+
+  <!-- Person using -->
+  <circle class="person" cx="60" cy="70" r="18"/>
+  <rect class="person" x="44" y="92" width="32" height="42" rx="10"/>
+  <text class="sub" x="60" y="150">You</text>
+  <line x1="80" y1="75" x2="118" y2="75" stroke="#d35400" stroke-width="3"/>
+
+  <text class="sub" x="310" y="330" style="font-size:15px">You use apps. Apps sit on the system. The system runs the hardware.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Break one goal into a few small steps">
+  <style>
+    .goal { fill:#312e81; }
+    .step { fill:#eef2fb; stroke:#3730a3; stroke-width:3; }
+    .gt { font:700 16px system-ui, sans-serif; fill:#fff; text-anchor:middle; }
+    .st { font:700 15px system-ui, sans-serif; fill:#14213d; text-anchor:middle; }
+    .flow { stroke:#3730a3; stroke-width:4; fill:none; marker-end:url(#ar); }
+  </style>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#3730a3"/></marker></defs>
+
+  <rect class="goal" x="20" y="62" width="150" height="56" rx="12"/>
+  <text class="gt" x="95" y="95">Goal</text>
+
+  <rect class="step" x="240" y="30" width="150" height="50" rx="10"/>
+  <text class="st" x="315" y="61">Step 1</text>
+  <rect class="step" x="285" y="65" width="150" height="50" rx="10" opacity="0"/>
+  <rect class="step" x="240" y="92" width="150" height="50" rx="10"/>
+  <text class="st" x="315" y="123">Step 2</text>
+  <rect class="step" x="470" y="62" width="150" height="50" rx="10"/>
+  <text class="st" x="545" y="93">Step 3</text>
+
+  <path class="flow" d="M170 80 C205 65 210 55 238 55"/>
+  <path class="flow" d="M170 100 C205 115 210 117 238 117"/>
+  <path class="flow" d="M392 87 H468"/>
+</svg>

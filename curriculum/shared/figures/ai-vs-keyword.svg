@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Keyword search gives a list of links; AI search writes one answer in sentences">
+  <style>
+    .panel { fill:#f3f6fb; stroke:#0b5394; stroke-width:3; }
+    .link { fill:#0b5394; }
+    .line { stroke:#9bb4d4; stroke-width:6; stroke-linecap:round; }
+    .ans { stroke:#1b7a3d; stroke-width:6; stroke-linecap:round; }
+    .h { fill:#14213d; font:700 17px system-ui, sans-serif; text-anchor:middle; }
+  </style>
+
+  <!-- Left: keyword search = list of links -->
+  <rect class="panel" x="30" y="40" width="300" height="270" rx="12"/>
+  <text class="h" x="180" y="70">Keyword search</text>
+  <g>
+    <line class="link" x1="55" y1="100" x2="240" y2="100" style="stroke:#0b5394;stroke-width:6;stroke-linecap:round"/>
+    <line class="line" x1="55" y1="118" x2="300" y2="118"/>
+    <line class="link" x1="55" y1="150" x2="230" y2="150" style="stroke:#0b5394;stroke-width:6;stroke-linecap:round"/>
+    <line class="line" x1="55" y1="168" x2="300" y2="168"/>
+    <line class="link" x1="55" y1="200" x2="250" y2="200" style="stroke:#0b5394;stroke-width:6;stroke-linecap:round"/>
+    <line class="line" x1="55" y1="218" x2="300" y2="218"/>
+    <line class="link" x1="55" y1="250" x2="225" y2="250" style="stroke:#0b5394;stroke-width:6;stroke-linecap:round"/>
+    <line class="line" x1="55" y1="268" x2="300" y2="268"/>
+  </g>
+  <text x="180" y="298" text-anchor="middle" fill="#4a5568" font="400 13px system-ui">a list of links to open</text>
+
+  <!-- Right: AI search = one written answer -->
+  <rect class="panel" x="390" y="40" width="300" height="270" rx="12"/>
+  <text class="h" x="540" y="70">AI search</text>
+  <rect x="410" y="90" width="260" height="180" rx="10" fill="#eaf5ee" stroke="#1b7a3d" stroke-width="2"/>
+  <line class="ans" x1="430" y1="120" x2="650" y2="120"/>
+  <line class="ans" x1="430" y1="148" x2="650" y2="148"/>
+  <line class="ans" x1="430" y1="176" x2="630" y2="176"/>
+  <line class="ans" x1="430" y1="204" x2="650" y2="204"/>
+  <line class="ans" x1="430" y1="232" x2="590" y2="232"/>
+  <text x="540" y="298" text-anchor="middle" fill="#4a5568" font="400 13px system-ui">one written answer</text>
+</svg>

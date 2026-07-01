@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Short videos autoplay in an endless loop to keep you scrolling for a long time">
+  <style>
+    .phone { fill:#1a1a2e; stroke:#0b5394; stroke-width:3; }
+    .vid { fill:#3a3a5e; }
+    .play { fill:#ffffff; }
+    .h { font:700 18px system-ui, sans-serif; fill:#14213d; }
+    .s { font:400 14px system-ui, sans-serif; fill:#4a5568; }
+    .loop { fill:none; stroke:#d35400; stroke-width:4; marker-end:url(#ar2); }
+  </style>
+  <defs><marker id="ar2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#d35400"/></marker></defs>
+
+  <!-- phone with short video -->
+  <rect class="phone" x="60" y="30" width="130" height="200" rx="16"/>
+  <rect class="vid" x="74" y="50" width="102" height="160" rx="6"/>
+  <path class="play" d="M112 110 l24 14 l-24 14 z"/>
+  <text class="s" x="125" y="226" text-anchor="middle" fill="#cbd5e0">one more video…</text>
+
+  <!-- endless loop -->
+  <path class="loop" d="M250 130 a90 70 0 1 1 0 1"/>
+  <text class="h" x="430" y="90">The endless scroll</text>
+  <text class="s" x="430" y="120">Videos autoplay one after another.</text>
+  <text class="s" x="430" y="144">There is no natural stopping point.</text>
+  <text class="s" x="430" y="168">Minutes turn into hours.</text>
+  <text class="h" x="430" y="206" fill="#1b7a3d">You can set a limit and take breaks.</text>
+</svg>

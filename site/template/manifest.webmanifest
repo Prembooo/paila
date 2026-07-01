@@ -1,0 +1,20 @@
+{
+  "name": "Paila — Learn digital skills",
+  "short_name": "Paila",
+  "description": "Free, offline-friendly learning platform (bilingual English / Nepali). First course: Digital Literacy.",
+  "lang": "ne",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#2a2356",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

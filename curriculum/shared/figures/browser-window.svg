@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-label="A web browser window showing tabs, back and reload buttons, the address bar, a search box, and the page area">
+  <style>
+    .win { fill:#ffffff; stroke:#0b5394; stroke-width:3; }
+    .bar { fill:#e8eef6; stroke:#0b5394; stroke-width:2; }
+    .tab { fill:#ffffff; stroke:#0b5394; stroke-width:2; }
+    .addr { fill:#ffffff; stroke:#0b5394; stroke-width:2; }
+    .btn { fill:#dbe7f5; stroke:#0b5394; stroke-width:2; }
+    .ic { stroke:#0b5394; stroke-width:3; fill:none; }
+    .muted { fill:#6b7a8d; font:400 15px system-ui, sans-serif; }
+    .line { stroke:#cdd8e6; stroke-width:8; stroke-linecap:round; }
+  </style>
+
+  <!-- Window -->
+  <rect class="win" x="8" y="8" width="704" height="444" rx="12"/>
+
+  <!-- Tab bar -->
+  <rect class="bar" x="8" y="8" width="704" height="40" rx="12"/>
+  <rect class="tab" x="20" y="14" width="170" height="34" rx="8"/>
+  <circle cx="38" cy="31" r="6" fill="#1b7a3d"/>
+  <text class="muted" x="54" y="36" style="font-size:14px">My page</text>
+  <text x="208" y="37" fill="#0b5394" font="700 22px system-ui">+</text>
+
+  <!-- Toolbar -->
+  <rect class="bar" x="8" y="48" width="704" height="44" />
+  <circle class="btn" cx="36" cy="70" r="14"/>
+  <path class="ic" d="M42 64 l-8 6 l8 6"/>
+  <circle class="btn" cx="76" cy="70" r="14"/>
+  <path class="ic" d="M70 64 l8 6 l-8 6"/>
+  <circle class="btn" cx="116" cy="70" r="14"/>
+  <path class="ic" d="M110 64 a8 8 0 1 1 -2 6" />
+  <rect class="addr" x="150" y="56" width="470" height="28" rx="14"/>
+  <text class="muted" x="168" y="75">www.example.com</text>
+  <circle class="btn" cx="660" cy="70" r="14"/>
+  <path class="ic" d="M654 70 h12 M660 64 v12"/>
+
+  <!-- Page area -->
+  <rect x="20" y="100" width="680" height="344" rx="6" fill="#ffffff" stroke="#e1e8f1" stroke-width="2"/>
+  <!-- on-page search box -->
+  <rect class="addr" x="200" y="150" width="320" height="46" rx="23"/>
+  <circle cx="232" cy="173" r="10" fill="none" stroke="#0b5394" stroke-width="3"/>
+  <line x1="240" y1="181" x2="250" y2="191" stroke="#0b5394" stroke-width="3"/>
+  <text class="muted" x="264" y="178">search here…</text>
+  <!-- content lines -->
+  <line class="line" x1="60" y1="250" x2="660" y2="250"/>
+  <line class="line" x1="60" y1="285" x2="600" y2="285"/>
+  <line class="line" x1="60" y1="320" x2="640" y2="320"/>
+  <line class="line" x1="60" y1="355" x2="560" y2="355"/>
+  <line class="line" x1="60" y1="390" x2="620" y2="390"/>
+</svg>

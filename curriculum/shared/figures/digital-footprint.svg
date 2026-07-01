@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="A digital footprint: what you do online leaves a trail of traces">
+  <style>
+    .lbl { font:700 16px system-ui, sans-serif; fill:#14213d; }
+    .s { font:400 14px system-ui, sans-serif; fill:#4a5568; }
+    .foot { fill:#9bb4d4; }
+    .phone { fill:#eef2fb; stroke:#0b5394; stroke-width:3; }
+    .trace { fill:#eaf5ee; stroke:#1b7a3d; stroke-width:2; }
+  </style>
+  <text class="lbl" x="30" y="40">Your digital footprint</text>
+  <text class="s" x="30" y="62">What you do online leaves a trail.</text>
+
+  <!-- footprints trail -->
+  <ellipse class="foot" cx="70" cy="150" rx="12" ry="20"/>
+  <ellipse class="foot" cx="130" cy="180" rx="12" ry="20"/>
+  <ellipse class="foot" cx="195" cy="150" rx="12" ry="20"/>
+  <ellipse class="foot" cx="260" cy="180" rx="12" ry="20"/>
+
+  <!-- phone -->
+  <rect class="phone" x="330" y="90" width="120" height="150" rx="14"/>
+  <rect class="trace" x="345" y="108" width="90" height="22" rx="5"/>
+  <text class="s" x="352" y="124">photo</text>
+  <rect class="trace" x="345" y="138" width="90" height="22" rx="5"/>
+  <text class="s" x="352" y="154">comment</text>
+  <rect class="trace" x="345" y="168" width="90" height="22" rx="5"/>
+  <text class="s" x="352" y="184">like</text>
+  <rect class="trace" x="345" y="198" width="90" height="22" rx="5"/>
+  <text class="s" x="352" y="214">search</text>
+
+  <text class="s" x="500" y="150">Posts, photos, likes and</text>
+  <text class="s" x="500" y="172">searches can stay online.</text>
+  <text class="s" x="500" y="200">Think before you share.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-label="A desktop computer: screen, system unit, keyboard, mouse, camera, and storage">
+  <style>
+    .part { fill:#dbe7f5; stroke:#0b5394; stroke-width:3; }
+    .dark { fill:#2b3a4a; stroke:#0b5394; stroke-width:3; }
+    .screen { fill:#eaf2fb; stroke:#0b5394; stroke-width:3; }
+  </style>
+
+  <!-- Monitor -->
+  <rect class="screen" x="120" y="40" width="300" height="190" rx="10"/>
+  <rect class="dark" x="245" y="230" width="50" height="35"/>
+  <rect class="dark" x="205" y="262" width="130" height="14" rx="6"/>
+
+  <!-- Webcam on monitor -->
+  <circle class="dark" cx="270" cy="34" r="9"/>
+
+  <!-- System unit / tower -->
+  <rect class="part" x="470" y="60" width="120" height="240" rx="8"/>
+  <circle class="dark" cx="500" cy="90" r="7"/>
+  <rect class="dark" x="490" y="120" width="80" height="10" rx="4"/>
+  <rect class="dark" x="490" y="140" width="80" height="10" rx="4"/>
+
+  <!-- Storage chip inside -->
+  <rect class="dark" x="505" y="210" width="50" height="34" rx="4"/>
+
+  <!-- Keyboard -->
+  <rect class="part" x="120" y="320" width="280" height="90" rx="10"/>
+  <g fill="#fff" stroke="#0b5394" stroke-width="1.5">
+    <rect x="135" y="335" width="22" height="18" rx="3"/><rect x="162" y="335" width="22" height="18" rx="3"/>
+    <rect x="189" y="335" width="22" height="18" rx="3"/><rect x="216" y="335" width="22" height="18" rx="3"/>
+    <rect x="243" y="335" width="22" height="18" rx="3"/><rect x="270" y="335" width="22" height="18" rx="3"/>
+    <rect x="297" y="335" width="22" height="18" rx="3"/><rect x="324" y="335" width="22" height="18" rx="3"/>
+    <rect x="351" y="335" width="34" height="18" rx="3"/>
+    <rect x="180" y="360" width="160" height="18" rx="3"/>
+  </g>
+
+  <!-- Mouse -->
+  <rect class="part" x="470" y="340" width="70" height="95" rx="34"/>
+  <line x1="505" y1="345" x2="505" y2="380" stroke="#0b5394" stroke-width="2"/>
+</svg>

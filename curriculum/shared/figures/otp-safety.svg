@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="A bank or wallet never asks for your OTP or PIN; keep it secret">
+  <style>
+    .shield { fill:#eaf5ee; stroke:#1b7a3d; stroke-width:4; }
+    .lbl { font:700 18px system-ui, sans-serif; fill:#14213d; }
+    .s { font:400 15px system-ui, sans-serif; fill:#4a5568; }
+    .otp { font:700 22px monospace; fill:#0b5394; text-anchor:middle; }
+    .no { fill:none; stroke:#c0392b; stroke-width:5; }
+  </style>
+  <!-- shield with OTP -->
+  <path class="shield" d="M120 30 l70 22 v55 c0 45 -35 70 -70 83 c-35 -13 -70 -38 -70 -83 v-55 z"/>
+  <text class="otp" x="120" y="115">8 1 4 2</text>
+  <text class="s" x="120" y="145" text-anchor="middle">your OTP / PIN</text>
+
+  <!-- crossed-out hand asking -->
+  <text class="lbl" x="280" y="70">A bank or wallet</text>
+  <text class="lbl" x="280" y="96">NEVER asks for it.</text>
+  <text class="s" x="280" y="130">eSewa, Khalti, your bank —</text>
+  <text class="s" x="280" y="154">none will ask your OTP or PIN.</text>
+  <text class="s" x="280" y="178">If someone asks, it is a scam.</text>
+
+  <circle class="no" cx="120" cy="115" r="78"/>
+</svg>

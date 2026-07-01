@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Four kinds of computer device: desktop, laptop, tablet, and smartphone, numbered 1 to 4">
+  <style>
+    .body { fill:#dbe7f5; stroke:#0b5394; stroke-width:3; }
+    .screen { fill:#eaf2fb; stroke:#0b5394; stroke-width:3; }
+    .num { fill:#d35400; }
+    .numtext { fill:#fff; font:bold 16px system-ui, sans-serif; text-anchor:middle; }
+    .cap { fill:#14213d; font:600 14px system-ui, sans-serif; text-anchor:middle; }
+  </style>
+
+  <!-- 1 Desktop -->
+  <rect class="screen" x="30" y="40" width="140" height="95" rx="8"/>
+  <rect class="body" x="92" y="135" width="16" height="22"/>
+  <rect class="body" x="70" y="157" width="60" height="10" rx="4"/>
+  <circle class="num" cx="40" cy="50" r="14"/><text class="numtext" x="40" y="55">1</text>
+  <text class="cap" x="100" y="190">1 Desktop</text>
+
+  <!-- 2 Laptop -->
+  <rect class="screen" x="210" y="55" width="130" height="80" rx="6"/>
+  <path class="body" d="M200 135 H350 L362 160 H188 Z"/>
+  <circle class="num" cx="220" cy="65" r="14"/><text class="numtext" x="220" y="70">2</text>
+  <text class="cap" x="275" y="190">2 Laptop</text>
+
+  <!-- 3 Tablet -->
+  <rect class="body" x="410" y="45" width="110" height="150" rx="12"/>
+  <rect class="screen" x="422" y="60" width="86" height="118" rx="4"/>
+  <circle class="num" cx="420" cy="55" r="14"/><text class="numtext" x="420" y="60">3</text>
+  <text class="cap" x="465" y="225">3 Tablet</text>
+
+  <!-- 4 Smartphone -->
+  <rect class="body" x="585" y="50" width="70" height="150" rx="14"/>
+  <rect class="screen" x="594" y="64" width="52" height="118" rx="4"/>
+  <circle class="num" cx="595" cy="58" r="14"/><text class="numtext" x="595" y="63">4</text>
+  <text class="cap" x="620" y="225">4 Phone</text>
+
+  <text class="cap" x="360" y="280" style="font-size:15px">All four are computers — big or small, they all think, show, and store.</text>
+</svg>

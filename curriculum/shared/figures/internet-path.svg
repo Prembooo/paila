@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="How information travels: your device connects through Wi-Fi to the internet, then to a website">
+  <style>
+    .part { fill:#dbe7f5; stroke:#0b5394; stroke-width:3; }
+    .screen { fill:#eaf2fb; stroke:#0b5394; stroke-width:3; }
+    .cloud { fill:#e6eefb; stroke:#0b5394; stroke-width:3; }
+    .flow { stroke:#d35400; stroke-width:4; fill:none; marker-end:url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#d35400"/>
+    </marker>
+  </defs>
+
+  <!-- Device (computer) -->
+  <rect class="screen" x="30" y="110" width="120" height="80" rx="8"/>
+  <rect class="part" x="70" y="190" width="40" height="14" rx="4"/>
+
+  <!-- Wi-Fi router -->
+  <rect class="part" x="250" y="135" width="90" height="50" rx="8"/>
+  <line x1="270" y1="135" x2="262" y2="110" stroke="#0b5394" stroke-width="3"/>
+  <line x1="320" y1="135" x2="328" y2="110" stroke="#0b5394" stroke-width="3"/>
+
+  <!-- Internet cloud -->
+  <ellipse class="cloud" cx="480" cy="150" rx="95" ry="55"/>
+  <text x="480" y="158" text-anchor="middle" fill="#0b5394" font="700 18px system-ui">Internet</text>
+
+  <!-- Website / server -->
+  <rect class="part" x="620" y="110" width="70" height="90" rx="8"/>
+  <line x1="630" y1="130" x2="680" y2="130" stroke="#0b5394" stroke-width="3"/>
+  <line x1="630" y1="150" x2="680" y2="150" stroke="#0b5394" stroke-width="3"/>
+  <line x1="630" y1="170" x2="680" y2="170" stroke="#0b5394" stroke-width="3"/>
+
+  <!-- Flow arrows -->
+  <path class="flow" d="M155 150 H245"/>
+  <path class="flow" d="M345 150 H378"/>
+  <path class="flow" d="M578 150 H615"/>
+</svg>

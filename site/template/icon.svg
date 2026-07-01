@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Digital Literacy">
+  <rect width="512" height="512" rx="96" fill="#0b5394"/>
+  <rect x="104" y="128" width="304" height="208" rx="18" fill="#ffffff"/>
+  <rect x="140" y="168" width="232" height="20" rx="10" fill="#0b5394"/>
+  <rect x="140" y="208" width="232" height="20" rx="10" fill="#9fc0e0"/>
+  <rect x="140" y="248" width="160" height="20" rx="10" fill="#9fc0e0"/>
+  <rect x="180" y="360" width="152" height="28" rx="14" fill="#ffffff"/>
+  <rect x="236" y="336" width="40" height="32" fill="#ffffff"/>
+</svg>
