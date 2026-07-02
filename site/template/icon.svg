@@ -1,9 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Digital Literacy">
-  <rect width="512" height="512" rx="96" fill="#0b5394"/>
-  <rect x="104" y="128" width="304" height="208" rx="18" fill="#ffffff"/>
-  <rect x="140" y="168" width="232" height="20" rx="10" fill="#0b5394"/>
-  <rect x="140" y="208" width="232" height="20" rx="10" fill="#9fc0e0"/>
-  <rect x="140" y="248" width="160" height="20" rx="10" fill="#9fc0e0"/>
-  <rect x="180" y="360" width="152" height="28" rx="14" fill="#ffffff"/>
-  <rect x="236" y="336" width="40" height="32" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Paila">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4338ca"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Paila polygonal footprint, scaled + centered, in white to read on the dark tile -->
+  <g transform="translate(92.8,44.8) scale(6.4)">
+    <!-- toes -->
+    <polygon points="13,14 18,11 19,16 14,18" fill="#ffffff"/>
+    <polygon points="22,9 27,8 27,14 22,15" fill="#ffffff"/>
+    <polygon points="30,9 35,10 34,16 29,15" fill="#ede9fe"/>
+    <polygon points="38,12 42,15 40,20 35,18" fill="#ede9fe"/>
+    <!-- ball pad (faceted) -->
+    <polygon points="12,22 26,18 39,24 34,38 16,39 9,30" fill="#ffffff"/>
+    <polygon points="26,18 39,24 34,38 27,29" fill="#c4b5fd"/>
+    <!-- heel (faceted) -->
+    <polygon points="18,44 31,43 28,58 21,58" fill="#ffffff"/>
+    <polygon points="31,43 28,58 26,50" fill="#c4b5fd"/>
+  </g>
 </svg>
